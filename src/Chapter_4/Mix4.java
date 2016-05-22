@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Chapter_2.Game;
+package Chapter_4;
 
 /**
  *
  * @author Егор
  */
-public class GameLauncher {
-    public static void main(String[] args){
-    GuessGame game = new GuessGame();
-    game.startGame();
+public class Mix4 {
     
-    }
 }

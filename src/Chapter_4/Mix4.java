@@ -27,7 +27,7 @@ public class Mix4 {
         }
     public int maybeNew(int index){
         if (index < 5){
-            Mix4 m4 = new Mix4;
+            Mix4 m4 = new Mix4();
             m4.counter = m4.counter + 1;
             return 1;
             }

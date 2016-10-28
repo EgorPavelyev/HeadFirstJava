@@ -25,12 +25,12 @@ public class Mix4 {
             }
         System.out.println(count + " " + m4a[1].counter);
         }
-    public int maybeNew(int index){
+    private int maybeNew(int index){
         if (index < 5){
             Mix4 m4 = new Mix4();
             m4.counter = m4.counter + 1;
             return 1;
-            }
+         }
         return 0;
     }
     
